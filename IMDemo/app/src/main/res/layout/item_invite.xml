@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dip"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/invite_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名称" />
+
+        <TextView
+            android:id="@+id/invite_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名称" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/invite_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收" />
+
+    <Button
+        android:layout_marginLeft="5dip"
+        android:id="@+id/invite_reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拒绝" />
+
+</LinearLayout>

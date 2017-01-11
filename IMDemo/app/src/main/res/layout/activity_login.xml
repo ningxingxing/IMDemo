@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <!--<com.hyphenate.easeui.widget.EaseTitleBar-->
+        <!--app:titleBarTitle="登录"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</com.hyphenate.easeui.widget.EaseTitleBar>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ec_edit_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ningshengcai123" />
+
+        <EditText
+            android:id="@+id/ec_edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="123" />
+
+        <Button
+            android:id="@+id/ec_btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册" />
+
+        <Button
+            android:layout_marginTop="10px"
+            android:id="@+id/ec_btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录" />
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:text="环信聊天"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
